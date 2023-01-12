@@ -1,0 +1,24 @@
+
+/* .formContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.addressForm{
+    display: flex;
+    flex-direction: column;
+} */
+
+.formContainer{
+display: grid;
+/* grid-template-columns: ; */
+gap: 20px;
+justify-content: center;
+/* grid-template-row: 100%; */
+/* width: 300px; */
+}
+
+.addressForm{
+
+}

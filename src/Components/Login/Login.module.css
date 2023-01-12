@@ -1,0 +1,16 @@
+
+/* body{
+    background-color: blanchedalmond;
+} */
+.wrapper{
+    display: flex;
+    justify-content: center;
+    margin: 60px;
+}
+
+.loginFormContainer{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    
+}

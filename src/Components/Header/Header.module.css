@@ -1,0 +1,20 @@
+
+header{
+    display: flex;
+    /* margin-top: -25px; */
+    background-color: #8a2b06;
+    height: 100px;
+    justify-content: space-between;
+    color:white;
+    position: relative;
+}
+
+header h1{
+    margin-left: 35px;
+}
+
+.buttons{
+    display: flex;   
+    margin-right: 20px;
+}
+

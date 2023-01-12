@@ -1,0 +1,30 @@
+span{
+    font-weight: bold;
+}
+
+.orderWrapper{
+    display: flex; 
+    flex-direction: column;
+}
+.orderDetailsWrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.orderDetails{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+}
+
+.outer{
+    display: flex;
+    justify-content: center;
+}
+.orderContentWrapper{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    width: 600px;
+}
