@@ -1,23 +1,27 @@
 /* .products/ */
 
 .productsContainer{
+    max-width: 1440px;
     display: grid;
-    grid-template-columns: 33% 33% 33%;
-    margin:2rem;
+    grid-template-columns: repeat(3,1fr);
+    margin:2rem auto;
     padding: 2rem;
-    gap: 20px;
-    
+    gap: 40px;
     justify-content: center;
+}
 
 @media (max-width:900px) {
-
+    .productsContainer{
     grid-template-columns: 50% 50%;
-
+    width: 100%;
+    gap: 20px;
+    }
 }
 
 @media (max-width:600px) {
-
-    grid-template-columns: 100%;
-
-}
+    .productsContainer{
+    grid-template-columns: 1fr;
+    width: 100%;
+    gap: 20px;
+    }
 }
