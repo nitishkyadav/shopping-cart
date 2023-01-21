@@ -46,3 +46,15 @@
     font-weight: 600;
     color:black;
 }
+
+@media (max-width:600px) {
+    .itemWrapper{
+    width: 80%;
+    }
+}
+
+@media (max-width:900px) {
+    .itemWrapper{
+        width: 90%;
+        }
+}

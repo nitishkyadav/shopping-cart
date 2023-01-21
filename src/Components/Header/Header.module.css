@@ -1,9 +1,7 @@
 
 
 header{
-    /* max-width: 1440px; */
     display: flex;
-    /* margin-top: -25px; */
     background-color: #8a2b06;
     height: 90px;
     justify-content: space-between;

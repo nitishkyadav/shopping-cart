@@ -1,4 +1,3 @@
-import { Divider } from "@mui/material";
 import { Fragment } from "react";
 import { Link } from "react-router-dom";
 import classes from "./ProductItem.module.css";
