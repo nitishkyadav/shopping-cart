@@ -17,7 +17,7 @@ function App() {
   // const isOrdered = useSelector((state) => state.orders?[state.orders.length-1].isOrdered);
   return (
     <Fragment>
-      {/* <Header></Header> */}
+      <Header></Header>
       <Routes>
         <Route path="/" element={<Navigate to="/products" />}></Route>
         <Route path="products" element={<Products />}></Route>

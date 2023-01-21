@@ -12,15 +12,13 @@ const Header = () => {
     navigate("/");
   };
   return (
-    <div>
-      <header>
-        <h1 onClick={homeButtonHandler}>React Cart</h1>
-        <div className={styles.buttons}>
-          <HeaderCartButton />
-          <LoginButton />
-        </div>
-      </header>
-    </div>
+    <header>
+      <h1 onClick={homeButtonHandler}>React Cart</h1>
+      <div className={styles.buttons}>
+        <HeaderCartButton />
+        <LoginButton />
+      </div>
+    </header>
   );
 };
 
